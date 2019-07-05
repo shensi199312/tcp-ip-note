@@ -1,6 +1,6 @@
 # ARP协议
 ## feature
-ARP为IP地址到对应的硬件地址之间提供动态映射  
+ARP为IP地址到对应的硬件地址(MAC)之间提供动态映射  
 32bit ip address -> 48bit ethernet address  
 ## ARP工作过程
 1.dns将主机名转换成32位ip地址 gethostbyname()  
