@@ -4,7 +4,7 @@
 2.无连接  
 ## ip数据报格式
 ! http://docs.52im.net/extend/docs/book/tcpip/vol1/3/images2/52im_1.png  
-head（20byte）+ options(可变长) + data(at most 65515byte)  
+head（20byte）+ options(可变长) + data(at most 65515byte) = 65535byte+ 
 网路字节序: 32bit二进制整数，0～7bit、8～15bit、16～23bit、24～31bit  
 ### 首部
 TO S服务类型特性  
